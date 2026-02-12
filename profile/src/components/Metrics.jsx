@@ -1,17 +1,10 @@
-// function Metrics() {
-//     return (
-//         <div>
-//             <h3>80k</h3>
-//             <p>Followers</p>
-//         </div>
-//     );
-// }
+import '../index.css';
 
-const Metrics = (props) => {
+const Metrics = ({ figure, label }) => {
     return (
         <div>
-            <h3>{ props.figure }</h3>
-            <p>{ props.label }</p>
+            <h3 style={{ color: 'var(--Navy-950)', fontSize: '18px' }}>{ figure }</h3>
+            <p style={{ color: 'var(--Gray-500)', fontSize: '12px', fontWeight: '500' }}>{ label }</p>
         </div>
     );
 }
