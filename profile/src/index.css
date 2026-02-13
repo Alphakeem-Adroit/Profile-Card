@@ -33,4 +33,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--Blue-600);
+  background-image:
+    url("./assets/bgPatternTop.svg"),
+    url("./assets/bgPatternBottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: top left, bottom right;
 }
